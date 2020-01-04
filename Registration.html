@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Online Examination</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/registration.css">
+    <script src="script/registration.js"></script>
+
+    <!-- <script src="script/testjs.js"></script> -->
+     <!-- <script>
+         function  myFunction(){
+             alert('Hello');
+         }
+     </script> -->
+</head>
+
+<body>
+
+    <div class="main-container">
+        <header>
+            <img class="img-banner" src="http://examdelhi.com/images/slider/1.jpg">
+        </header>
+        <div class="topnav">
+            <a href="index.html"><i class="fas fa-home"></i> Home</a>
+            <a href="list.html">List</a>
+            <a href="#">About Us</a>
+            <a href="motive.html">Motivation</a>
+            <a href="Registration.html" class="right">Registation</a>
+            <a href="login.html" class="right">Login</a>
+        </div>
+        <section>
+            <article>
+                <div class="div-scroll">
+                    <!-- <form> -->
+                        <table style=" width:100%;">
+                            <tr>
+                                <td>
+                                    <div style="margin-top:10px;">
+                                        <label>Student Name <sapn class="requiered">*</sapn></label>
+                                        <div style="margin-top:5px;">
+                                            <!-- <input style="height:25px;" type="Text" id="studentName" placeholder="Student Name"/> -->
+                                            <input class="text-height-width" type="Text" id="studentName"
+                                                placeholder="Student Name" />
+                                        </div>
+                                    </div>
+
+                                    <div style="margin-top:10px;">
+                                        <label>Email <sapn class="requiered">*</sapn></label>
+                                        <div style="margin-top:5px;">
+                                            <input class="text-height-width" type="Text" id="email"
+                                                placeholder="example@gmail.com" />
+                                        </div>
+                                    </div>
+
+                                    <div style="margin-top:10px;">
+                                        <label>Mobile Number <sapn class="requiered">*</sapn></label>
+                                        <div style="margin-top:5px;">
+                                            <input class="text-height-width" type="Text" id="mobile"
+                                                placeholder="980987651" />
+                                        </div>
+                                    </div>
+
+                                    <div style="margin-top:10px;">
+                                        <label>Gender</label>
+                                        <div style="margin-top:5px;">
+                                            <span> <input type="radio" name="sex" value="male" size="10">Male</span>
+                                            <span> <input type="radio" name="sex" value="Female" size="10">Female
+                                            </span>
+
+                                        </div>
+                                    </div>
+                                    <div style="margin-top:10px;">
+                                        <label>DOB</label>
+                                        <div style="margin-top:5px;">
+                                            <input class="text-height-width" type="Text" id="DOB"
+                                                placeholder="DD/MM/YY" />
+                                        </div>
+                                    </div>
+                                </td>
+
+                                <td>
+
+                                    <div style="margin-top:10px;">
+                                        <label>Address</label>
+                                        <div style="margin-top:5px;">
+                                            <input class="text-height-width" type="Text" id="Address"
+                                                placeholder="addresss" />
+                                        </div>
+                                    </div>
+
+                                    <div style="margin-top:10px;">
+                                        <label>City</label>
+                                        <div style="margin-top:5px;">
+                                            <select name="City" class="selection ">
+                                                <option value="-1" selected>select..</option>
+
+                                                <option value="New Delhi">NEW DELHI</option>
+
+                                                <option value="Mumbai">MUMBAI</option>
+
+                                                <option value="Goa">GOA</option>
+
+                                                <option value="Patna">PATNA</option>
+
+                                                <option value="Pune">PUNE</option>
+
+                                                <option value="Mp">MP</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <div style="margin-top:10px;">
+                                        <label>Course</label>
+                                        <div style="margin-top:5px;">
+                                            <select name="Course" class="selection">
+                                                <option value="-1" selected>select..</option>
+
+                                                <option value="B.Tech">B.TECH</option>
+
+                                                <option value="MCA">MCA</option>
+
+                                                <option value="MBA">MBA</option>
+
+                                                <option value="BCA">BCA</option>
+
+                                                <option value="Bsc">BSC</option>
+
+                                                <option value="Bca">BCA</option>
+
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <div style="margin-top:10px;">
+                                        <label>ExamTest</label>
+                                        <div style="margin-top:5px;">
+                                            <select name="ExamTest" class="selection">
+
+                                                <option value="-1" selected>select..</option>
+
+                                                <option value="SSC">SSC</option>
+
+                                                <option value="GATE">GATE</option>
+
+                                                <option value="CAT">CAT</option>
+
+                                                <option value="NET">NET</option>
+
+                                                <option value="JEE">JEE</option>
+
+                                                <option value="BANK PO">BANK PO</option>
+
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div style="margin-top:10px;">
+                                        <label>Language</label>
+                                        <div style="margin-top:5px;">
+                                            <select name="Language" class="selection">
+                                                <option value="-1" selected>select..</option>
+                                                <option value="Hindi">Hindi</option>
+                                                <option value="English">English</option>
+                                                <option value="Tamil">Tamil</option>
+                                                <option value="Marathi">Marathi</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                </td>
+                            </tr>
+                        </table>
+
+                        <div style="margin-top:10px;">
+                            <div style="margin-top:5px;">
+                                <button class="btn btn-danger">Reset</button>
+                                <button class="btn btn-primary" onclick="submit()">Register</button>
+                            </div>
+                        </div>
+                    <!-- </form> -->
+                </div>
+
+            </article>
+        </section>
+
+        <footer>
+            <table class="tbl-footer">
+                <tr style="vertical-align: top;">
+                    <td style="width: 33.33%;">
+                        <h3>
+                            Contact Information </h3>
+
+                        <div style="font-size: small; margin-top: 10px;">
+                            <ul>
+                                <li><a class="fb" href="#"><i></i>Like us on Facebook</a></li>
+                                <li><a class="fb1" href="#"><i></i>Follow us on Twitter</a></li>
+                                <li><a class="fb2" href="#"><i></i>Add us on Google Plus</a></li>
+                                <li><a class="fb3" href="#"><i></i>Follow us on Dribbble</a></li>
+                                <li><a class="fb4" href="#"><i></i>Follow us on Pinterest</a></li>
+                            </ul>
+                        </div>
+                    </td>
+                    <td style="width: 33.33%;">
+                        <h3>
+                            Keep Connected
+                        </h3>
+                        <div style="font-size: small; margin-top: 10px;">
+                            <ul>
+                                <li>The company name <span>Lorem ipsum dolor,</span>Glasglow Dr 40 Fe 72. </li>
+                                <li>1234567890 </li>
+                                <li><a href="mailto:info@example.com">contact@example.com</a> </li>
+                            </ul>
+                        </div>
+                    </td>
+                    <td style="width: 33.33%;">
+                        <h3 style="text-align: right;">
+                            More About Company
+                        </h3>
+                        <div style="font-size: small; margin-top: 10px;">
+                            <ul>
+                                <p> Nemo enim ipsam voluptatem quia
+                                    voluptas sit aspernatur aut odit aut fugit,
+                                    sed quia consequuntur magni dolores eos qui
+                                    ratione voluptatem sequi nesciunt.</p>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </footer>
+    </div>
+     
+</body>
+
+</html>
